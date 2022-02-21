@@ -1,0 +1,88 @@
+body {
+  height: 100vh;
+  margin: 0;
+  display: flex;
+
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  gap: 12px;
+}
+
+img {
+  max-width: 300px;
+  float: right; 
+}
+
+.header {
+display: flex;
+justify-content: space-between;
+background-color: aliceblue;
+}
+
+.top {
+display: flex;
+justify-content: center;
+background-color: aliceblue;
+}
+
+.doormat {
+  padding: 12px;
+ border-radius: 10px;
+}
+
+.middle {
+text-align: center;
+  background-color: blanchedalmond;
+padding-bottom: 44px;
+}
+
+.cards {
+display: flex;
+justify-content: center;
+gap: 18px;
+}
+
+.one, .two, .three, .four {
+  height: 120px;
+  width: 120px;
+  gap: 12px;
+  border: 2px solid red;
+  border-radius: 10px;
+
+}
+
+.bottom {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+ flex: 1;
+width: 260px;
+  height: auto;
+  margin: auto;
+}
+
+.left {
+ text-align: left;
+display: block;
+}
+.right {
+  text-align: right;
+  display: block;
+ }
+
+.footer {
+  display: flex;
+  justify-content: center;
+  gap: 96px;
+  background-color: #e5e5e5;
+  padding-top: 28px;
+}
+
+.btn-ftr {
+  margin: 20px;
+}
